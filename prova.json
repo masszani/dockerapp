@@ -1,1 +1,30 @@
-{"info":{"title":"Alfa","description":"Alfa","version":"1.0.0"},"swagger":"2.0"}
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Alfa",
+    "description": "Alfa",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/v1/login": {
+      "post": {
+        "parameters": [
+          {
+            "name": "username",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body"
+          }
+        ]
+      }
+    }
+  }
+}

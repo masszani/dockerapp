@@ -14,16 +14,13 @@
           {
             "name": "username",
             "in": "query",
+            "description": "username",
             "type": "string"
           },
           {
             "name": "password",
             "in": "query",
             "type": "string"
-          },
-          {
-            "name": "body",
-            "in": "body"
           }
         ],
         "responses": {
